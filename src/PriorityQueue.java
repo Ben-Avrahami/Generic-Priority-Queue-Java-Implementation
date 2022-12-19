@@ -4,12 +4,11 @@ import java.lang.Iterable;
 
 
 public class PriorityQueue <E> implements Iterable<E>{
-	//protected int indexInArrayList=0;
-	//protected int indexOfArrayList=0;
 	private int _amountOfPriorities;
 	private int _amountOfItemsInTheQueue;
 	public ArrayList<E>[] priority;
 
+	@SuppressWarnings("unchecked")
 	public PriorityQueue(int n) {
 		// TODO Auto-generated constructor stub
 		_amountOfPriorities=n;
