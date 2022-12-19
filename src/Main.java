@@ -1,5 +1,9 @@
 import java.util.Iterator;
-
+/**
+ * main which will test the different functions of the PriorityQueue with String as the data type of the PriorityQueue
+ * @author BenA
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
@@ -44,13 +48,10 @@ public class Main {
 		// Test the size method
 		System.out.println(pq.size()); 
 
-		/**
-		 * Testing the for each loop
-		 */
+		//Testing the for each loop		 
 		for (String string : pq) {
 			System.out.println(string);
 		}
-
 
 		// Test the iterator
 		Iterator<String> it = pq.iterator();
